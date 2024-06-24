@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.grid {
+  display: inline-block;
+  background-color: black; /* Set grid background to black */
+  padding: 2px; /* Add padding to ensure grid border is visible */
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;  /* Adjust the width and height to fit your design */
+  height: 20px; /* Adjust the width and height to fit your design */
+  border: 1px solid #333; /* Darken the border to blend with the black background */
+  background-color: black; /* Make the default cell color black */
+}
+
+.cell.filled {
+  background-color: blue; /* Adjust this color to be visible against the black background */
+}
